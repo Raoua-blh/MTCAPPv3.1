@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Microsoft Tech Club ISIMM baby</string>
+    <string name="location">Fetching Location</string>
+    <string name="userGreeting">  Hi Majd,\n Welcome back</string>
+    <string name="date">31 October 2015</string>
+    <string name="whatsMTC">What is MTC</string>
+</resources>
