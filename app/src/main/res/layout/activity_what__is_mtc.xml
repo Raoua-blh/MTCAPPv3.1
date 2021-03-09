@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/bgwtsmtc"
         android:layout_width="446dp"
         android:layout_height="183dp"
         android:layout_marginBottom="548dp"
@@ -32,7 +32,7 @@
         app:srcCompat="@drawable/white_mtc" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/whatsMtc"
         android:layout_width="258dp"
         android:layout_height="49dp"
         android:layout_marginStart="15dp"
@@ -45,5 +45,17 @@
         app:layout_constraintStart_toEndOf="@+id/imageView4"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/descpwhatsMtc"
+        android:layout_width="66dp"
+        android:layout_height="13dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgwtsmtc"
+        app:layout_constraintVertical_bias="0.042" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

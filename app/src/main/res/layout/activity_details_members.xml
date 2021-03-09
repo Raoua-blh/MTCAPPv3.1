@@ -6,4 +6,52 @@
     android:layout_height="match_parent"
     tools:context=".DetailsMembers">
 
+    <ImageView
+        android:id="@+id/imgMembersDetailsIv"
+        android:layout_width="297dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cuteaff" />
+
+    <TextView
+        android:id="@+id/nameMembersDetailsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginRight="176dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgMembersDetailsIv" />
+
+    <TextView
+        android:id="@+id/descrpMemberDetailsTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameMembersDetailsTv" />
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="275dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="172dp"
+        android:text="hellooooo "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descrpMemberDetailsTv"
+        app:layout_constraintVertical_bias="0.73" />
 </androidx.constraintlayout.widget.ConstraintLayout>

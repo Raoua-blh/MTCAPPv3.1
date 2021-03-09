@@ -6,8 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -21,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView mMembersIcon;
     private ImageView mCalendar;
     private ImageView mHistory;
-
+    private TextView salutation ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         String currentDate = DateFormat.getDateInstance(DateFormat.FULL).format(calendar.getTime());
         TextView textViewDate = findViewById(R.id.date);
         textViewDate.setText(currentDate);
+        salutation = findViewById(R.id.greeting1);
 
         mWhatsMTC = findViewById(R.id.mtcLogo);
         mWhatsMTC.setOnClickListener(new View.OnClickListener() {

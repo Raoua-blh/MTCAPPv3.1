@@ -7,15 +7,14 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/bg"
-        android:layout_width="417dp"
-        android:layout_height="741dp"
+        android:id="@+id/bgwtsmtc"
+        android:layout_width="531dp"
+        android:layout_height="856dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/bg" />
 
     <ImageView
@@ -26,7 +25,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.571"
+        app:layout_constraintVertical_bias="0.593"
         app:srcCompat="@drawable/white_clock" />
 
     <ImageView
@@ -35,22 +34,22 @@
         android:layout_height="103dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.301"
-        app:layout_constraintStart_toStartOf="@+id/bg"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="@+id/bgwtsmtc"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_bias="0.764"
         app:srcCompat="@drawable/white_mtc" />
 
     <ImageView
         android:id="@+id/calendarLogo"
         android:layout_width="104dp"
         android:layout_height="105dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintBottom_toBottomOf="@+id/bgwtsmtc"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.667"
+        app:layout_constraintHorizontal_bias="0.687"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.749"
+        app:layout_constraintVertical_bias="0.762"
         app:srcCompat="@drawable/white_calendar_copy" />
 
     <ImageView
@@ -59,10 +58,10 @@
         android:layout_height="107dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.125"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565"
+        app:layout_constraintVertical_bias="0.592"
         app:srcCompat="@drawable/white_members" />
 
     <ImageView
@@ -71,17 +70,17 @@
         android:layout_height="110dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintHorizontal_bias="0.896"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/white_home" />
 
     <ImageView
         android:id="@+id/bottomPic"
         android:layout_width="382dp"
         android:layout_height="122dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bg"
+        app:layout_constraintBottom_toBottomOf="@+id/bgwtsmtc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -89,29 +88,43 @@
         app:srcCompat="@drawable/bottompic__1_" />
 
     <TextView
-        android:id="@+id/greeting"
+        android:id="@+id/greeting1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/userGreeting"
+        android:text="Hi Majd"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/homeIcon"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintHorizontal_bias="0.689"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.723" />
+        app:layout_constraintVertical_bias="0.545" />
+
+    <TextView
+        android:id="@+id/greeting2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/homeIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.684" />
 
     <ImageView
         android:id="@+id/circlePic"
-        android:layout_width="99dp"
-        android:layout_height="91dp"
+        android:layout_width="160dp"
+        android:layout_height="135dp"
         app:layout_constraintBottom_toTopOf="@+id/membersIcon"
-        app:layout_constraintEnd_toStartOf="@+id/greeting"
-        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintEnd_toStartOf="@+id/greeting1"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.554"
+        app:layout_constraintVertical_bias="0.633"
         app:srcCompat="@drawable/circlepic" />
 
     <ImageView
@@ -133,12 +146,14 @@
         android:fontFamily="@font/khula_light"
         android:text="@string/date"
         android:textColor="#FFFFFF"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/greeting"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/greeting1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.871"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.193" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

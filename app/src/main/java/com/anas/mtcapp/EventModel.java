@@ -37,13 +37,6 @@ public class EventModel {
         EventImg = eventImg;
     }
 
-    public int getCircle() {
-        return circle;
-    }
-
-    public void setCircle(int circle) {
-        this.circle = circle;
-    }
 
 
 }

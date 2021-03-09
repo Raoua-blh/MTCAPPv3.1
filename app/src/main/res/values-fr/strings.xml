@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Microsoft Tech Club ISIMM baby</string>
+    <string name="greeting1" translatable="false">"salut Majd "</string>
+    <string name="greeting2" translatable="false">"Bienvenue "</string>
+
+    <string name="whatsMTC" translatable="false">Qu\'est ce que MTC ?</string>
+</resources>

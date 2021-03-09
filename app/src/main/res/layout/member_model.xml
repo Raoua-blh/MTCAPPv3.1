@@ -22,7 +22,7 @@
 
 
         <TextView
-            android:id="@+id/memberNameTV"
+            android:id="@+id/EventsNameTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -36,7 +36,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/memberDescriptionTV"
+            android:id="@+id/EventsDescriptionTV"
             android:layout_width="280dp"
             android:layout_height="79dp"
             android:layout_marginTop="8dp"
@@ -45,15 +45,15 @@
             android:layout_marginRight="16dp"
             android:text="hello i am rawaa a student at lf3 info isimm blablablablabalb i am a vpf at Microsoft Tech Club and Trisorier "
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/memberNameTV" />
+            app:layout_constraintTop_toBottomOf="@+id/EventsNameTV" />
 
         <ImageView
-            android:id="@+id/memberImg"
+            android:id="@+id/EventsImg"
             android:layout_width="107dp"
             android:layout_height="85dp"
 
             android:layout_marginTop="16dp"
-            app:layout_constraintEnd_toStartOf="@+id/memberDescriptionTV"
+            app:layout_constraintEnd_toStartOf="@+id/EventsDescriptionTV"
             app:layout_constraintTop_toTopOf="parent"
             tools:srcCompat="@tools:sample/avatars" />
 

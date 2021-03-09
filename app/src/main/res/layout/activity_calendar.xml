@@ -7,18 +7,18 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/entetecalander"
-        android:layout_width="422dp"
-        android:layout_height="229dp"
-        android:layout_marginBottom="548dp"
+        android:id="@+id/enteteMember"
+        android:layout_width="426dp"
+        android:layout_height="206dp"
+        android:layout_marginBottom="624dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.06"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bgg" />
 
     <ImageView
-        android:id="@+id/calander"
+        android:id="@+id/MemberLogo"
         android:layout_width="79dp"
         android:layout_height="62dp"
         android:layout_marginTop="16dp"
@@ -26,45 +26,20 @@
         android:layout_marginRight="316dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/white_calendar_copy" />
+        app:srcCompat="@drawable/white_members" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/membersRV"
-        android:layout_width="413dp"
-        android:layout_height="593dp"
+        android:id="@+id/EventsRV"
+        android:layout_width="388dp"
+        android:layout_height="636dp"
 
-        android:layout_marginTop="140dp"
+        android:layout_marginTop="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="411dp"
-        android:layout_marginRight="411dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Monday" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tuesday" />
-
-        <com.google.android.material.tabs.TabItem
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Wednesday" />
-    </com.google.android.material.tabs.TabLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ViewStub
         android:id="@+id/viewStub"
@@ -78,15 +53,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/PastEventsTV"
+        android:id="@+id/MembersTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
-        android:text="Past Events"
+        android:text="Meet The Team"
         android:textColor="#F6F5F5"
         android:textSize="36sp"
-        app:layout_constraintStart_toEndOf="@+id/calander"
+        app:layout_constraintStart_toEndOf="@+id/MemberLogo"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
